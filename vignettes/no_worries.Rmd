@@ -1,0 +1,24 @@
+---
+title: "no_worries"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{no_worries}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(b3anatest)
+```
+
+```{r}
+happy()
+```
+
